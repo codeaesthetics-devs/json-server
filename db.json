@@ -1,0 +1,427 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "free@app.com",
+      "password": "123456",
+      "username": "free",
+      "userType": "free",
+      "token": "free-user-token"
+    },
+    {
+      "id": "2",
+      "email": "paid@app.com",
+      "password": "123456",
+      "username": "paid",
+      "userType": "free",
+      "token": "free-user-token"
+    }
+  ],
+  "courses": [
+    {
+      "id": "surah-Al-Mulk",
+      "title": "Surah Al-Mulk",
+      "description": "Dive into Surah Al-Mulk with this course covering its context, meanings, and lessons.",
+      "price": "3000 PKR",
+      "sections": [
+        {
+          "sectionId": "section-1",
+          "title": "Introduction and Context",
+          "lessons": [
+            {
+              "lessonId": "al-Mulk-1-1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "al-Mulk-1-2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "sectionId": "section-2",
+          "title": "Detailed Analysis",
+          "lessons": [
+            {
+              "lessonId": "al-Mulk-2-1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "al-Mulk-2-2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surah-2",
+      "title": "Surah 2",
+      "description": "Explore the second Surah with comprehensive analysis and interpretation.",
+      "price": "3000 PKR",
+      "sections": [
+        {
+          "sectionId": "section-1",
+          "title": "Overview and Background",
+          "lessons": [
+            {
+              "lessonId": "surah2-1-1",
+              "name": "Overview of Surah 2",
+              "content": "An overview of Surah 2, covering its main themes and historical background."
+            },
+            {
+              "lessonId": "surah2-1-2",
+              "name": "Historical Context",
+              "content": "Understanding the historical context of Surah 2."
+            }
+          ]
+        },
+        {
+          "sectionId": "section-2",
+          "title": "Verse Analysis",
+          "lessons": [
+            {
+              "lessonId": "surah2-2-1",
+              "name": "Detailed Study of Key Verses",
+              "content": "A detailed study of key verses from Surah 2, understanding their deeper meanings."
+            },
+            {
+              "lessonId": "surah2-2-2",
+              "name": "Application of Lessons",
+              "content": "How the lessons from these verses can be applied today."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "malaal",
+      "title": "Malaal",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti voluptatum iste magni sint dignissimos maiores,",
+      "coverImg": "https://firebasestorage.googleapis.com/v0/b/lms-prototype-f9dd6.appspot.com/o/8eb8e1ef591a9825bf738149c620f7f2.png?alt=media&token=dc3df19f-f771-4f15-8e4d-6b7d1ebbb0be",
+      "price": "3000 PKR",
+      "publisher": {
+        "id": 1,
+        "name": "Urdu Codes"
+      },
+      "author": {
+        "id": 1,
+        "name": "Nimra"
+      },
+      "chapters": [
+        {
+          "chapterId": "chapter-1",
+          "title": "Chapter 1",
+          "trial": true,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-2",
+          "title": "Chapter 2",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-3",
+          "title": "Chapter 3",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-4",
+          "title": "Chapter 4",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-5",
+          "title": "Chapter 5",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-6",
+          "title": "Chapter 6",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-7",
+          "title": "Chapter 7",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-8",
+          "title": "Chapter 8",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-9",
+          "title": "Chapter 9",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jnaat-ky-patty",
+      "title": "Jnat Ky Paty",
+      "price": "3000 PKR",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti voluptatum iste magni sint dignissimos maiores,",
+      "coverImg": "https://s3-alpha-sig.figma.com/img/f93d/30df/37a4335a3af726f61f00a8d53bf75a2f?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n8K8zOkdXrOPzhfi1h2W-UEiQYpEhFaEicH46Y4kJGBni0cmlvl7Jd3BGWvQFvc9XU8H6P5svCP8tjBRARXvEDgOfqJDzeZ7DyGSanUiaq4E0nmpqLPQdSQhk7lrejivyn6qevGrzO3nQZcEwWuRECQ5QJgOHkATQolPY75LV-nmtCJ0Gl-Bsi4-5FemjOYTsUEm2F6eLrTWXTCTdJS~efH6Oii6u-KEV8WrZ5c4cgtbBu4lKSEFD7ajbxBxsZbfE0Jq3yQ1tcMVErgenlIhAov7S7Ftn97wSDGeL44SpwFV8BIrXyPOojn4XbfiCrI~VCvdG3~2Cvw3-B3WiF75RA__",
+      "publisher": {
+        "id": 1,
+        "name": "Urdu Codes"
+      },
+      "author": {
+        "id": 1,
+        "name": "Nimra"
+      },
+      "chapters": [
+        {
+          "chapterId": "chapter-1",
+          "title": "Chapter 1",
+          "trial": true,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-2",
+          "title": "Chapter 2",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "namal",
+      "title": "Namal",
+      "price": "3000 PKR",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti voluptatum iste magni sint dignissimos maiores,",
+      "coverImg": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1483526434i/22673665.jpg",
+      "publisher": {
+        "id": 1,
+        "name": "Urdu Codes"
+      },
+      "author": {
+        "id": 1,
+        "name": "Nimra"
+      },
+      "chapters": [
+        {
+          "chapterId": "chapter-1",
+          "title": "Chapter 1",
+          "trial": true,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-2",
+          "title": "Chapter 2",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karakaram-ka-taj-mahel",
+      "title": "Karakaram Ka Tajn Mahel",
+      "price": "3000 PKR",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti voluptatum iste magni sint dignissimos maiores,",
+      "coverImg": "https://s3-alpha-sig.figma.com/img/3324/b85b/5baa38b31d95f827b0ef5aaab2ae39ab?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fx-RXrZCZ3Vf4Zpj3aD3KK9GQq5GqqPw5tRhXNSTJnETPKGpiVx7bhff0fyXL2098hLgpBtGcGyCt3sqmiCgPziolOeEZ-tCexRZpj9PkIKYw4v-bDZ3RlCZX6g-asHTee3~~7a7k2Icy3nusdu2jQQsFZLPHZeq7N3oGnQCWRLvkVx94xaaSPkx~FGknbFBy-EBXAQk1q3eCMVtsh5lUARMUCHXQNAUhoX3onvRiQ8IO1p-zMMVkd4tHbzqZ8KAuN9ybpinVAWUtpLUfUQ0YMCW38PeUmTZ4LjrGnLISmP-nwSoaE0g01mrmASaf7RJbbphlsWncqr9vuph-zaXJQ__",
+      "publisher": {
+        "id": 1,
+        "name": "Urdu Codes"
+      },
+      "author": {
+        "id": 1,
+        "name": "Nimra"
+      },
+      "chapters": [
+        {
+          "chapterId": "chapter-1",
+          "title": "Chapter 1",
+          "trial": true,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Introduction to Surah Al-Mulk",
+              "content": "This lesson introduces Surah Al-Mulk, its significance, and historical context."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Significance of Surah Al-Mulk",
+              "content": "Exploring the significance and the key messages of Surah Al-Mulk."
+            }
+          ]
+        },
+        {
+          "chapterId": "chapter-2",
+          "title": "Chapter 2",
+          "trial": false,
+          "lessons": [
+            {
+              "lessonId": "Lesson 1",
+              "name": "Analysis of Verses 1-10",
+              "content": "This lesson dives into the first ten verses of Surah Al-Mulk, exploring their meanings and implications."
+            },
+            {
+              "lessonId": "Lesson 2",
+              "name": "Themes and Lessons",
+              "content": "Discussion on the themes and lessons derived from these verses."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
